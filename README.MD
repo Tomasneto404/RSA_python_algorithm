@@ -31,14 +31,15 @@ ALLOWED CARACTERS
 - numbers --> 0 1 2 3 4 5 6 7 8 9
 - special caracters --> (_space_) ! " # $ % & ' ( ) * + , - . / : ; < > = ? @ [ ] \ ^ _ `
 
-ENCRYPTION FORMULA
+ENCRYPTION FORMULA<br>
 _c = m^e mod n_, also known as _m^e ≡ c mod n_
 
 
-### Decryption
-**Tradition decryption with private key**
-INPUT: Private key (_d_, _n_);
-       Ciphertext (_c_).
+### Decryption<br>
+**Tradition decryption with private key**<br>
+INPUT: 
+- Private key (_d_, _n_);
+- Ciphertext (_c_).
 
-DECRYPTION FORMULA
+DECRYPTION FORMULA <br>
 _m = c^d mod n_, also known as _c^d ≡ m mod n_
