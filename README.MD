@@ -5,19 +5,19 @@ This program was developed to test my knowledge about the RSA encryption system.
 
 ### Encryption
 **METHOD 1 - Traditional encryption with public key**<br>
-INPUT: 
+INPUT: <br>
        - Public key (_e, n_);<br>
        - Plaintext message (_m_).
 
-OUTPUT: 
+OUTPUT: <br>
        - Ciphertext (_c_).
 
 **METHOD 2 - Generate the whole cipher**<br>
-INPUT: 
+INPUT: <br>
        - Number of bits that the modulus (_n_) must have;<br>
        - Plaintext message (_m_)
 
-OUTPUT: 
+OUTPUT: <br>
        - Two random prime numbers (_p_ and _q_) that originated _n_ with the provided number of bits;<br>
        - The expoent (_e_) that by default is always 65537;<br>
        - The modular inverse of _e_ (_d_) that verifies the following function: _d_*_e_ ≡ 1 mod ɸ(_n_);<br>
