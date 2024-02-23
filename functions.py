@@ -1,5 +1,4 @@
 import random
-import time
 from sympy import mod_inverse
 
 def miller_rabin(n, k=5):
