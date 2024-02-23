@@ -4,13 +4,13 @@
 This program was developed to test my knowledge about the RSA encryption system. It works with the real RSA algorithm.
 
 ### Encryption
-**METHOD 1 - Traditional encryption with public key**
+**METHOD 1 - Traditional encryption with public key**<br>
 INPUT: Public key (_e, n_);
        Plaintext message (_m_).
 
 OUTPUT: Ciphertext (_c_).
 
-**METHOD 2 - Generate the whole cipher**
+**METHOD 2 - Generate the whole cipher**<br>
 INPUT: Number of bits that the modulus (_n_) must have;
        Plaintext message (_m_)
 
