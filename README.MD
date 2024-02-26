@@ -36,7 +36,7 @@ _c = m^e mod n_, also known as _m^e ≡ c mod n_
 
 
 ### Decryption<br>
-**Tradition decryption with private key**<br>
+**Traditional decryption with private key**<br>
 INPUT: 
 - Private key (_d_, _n_);
 - Ciphertext (_c_).
