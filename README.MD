@@ -25,6 +25,7 @@ OUTPUT: <br>
 - Ciphertext (_c_).
 
 To encrypt a plaintext, the first step is to enconde _m_ with the _ASCII_ codes. In order to simplify the decryption, the _ASCII_ codes must have a max length of **two** numbers, it means that the message must be written **only** with the following caracters.
+(I will update to utf-8 encode)
 
 ALLOWED CARACTERS
 - letters --> A B C D E F G H I J K L M N O P Q R S T U V W X Y Z and a b c
